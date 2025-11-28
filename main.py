@@ -1,16 +1,10 @@
-from merge import merge_arrays
+from reverse_num import reverse_number
 
 def main():
-    print("-- Тест функции объединения массивов --")
-    a = [1, 2, 3]
-    b = [4, 5]
-    print("Массив 1:", a)
-    print("Массив 2:", b)
-    result = merge_arrays(a, b)
-    print("Объединённый массив:", result)
+    print("-- Тест переворота чисел --")
+    nums = [123, 450, 9001, 70007]
+    for n in nums:
+        print(f"{n} → {reverse_number(n)}")
 
 if __name__ == "__main__":
     main()
-
-
-
