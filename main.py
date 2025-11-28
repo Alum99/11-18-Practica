@@ -1,13 +1,16 @@
-from sorting import sort_array
+from merge import merge_arrays
 
 def main():
-    print("-- Тест функции сортировки --")
-    arr = [5, 1, 3, 7, 2]
-    print("Исходный массив:", arr)
-    result = sort_array(arr)
-    print("После сортировки:", result)
+    print("-- Тест функции объединения массивов --")
+    a = [1, 2, 3]
+    b = [4, 5]
+    print("Массив 1:", a)
+    print("Массив 2:", b)
+    result = merge_arrays(a, b)
+    print("Объединённый массив:", result)
 
 if __name__ == "__main__":
     main()
+
 
 
