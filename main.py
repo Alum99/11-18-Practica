@@ -1,10 +1,11 @@
-from manual_input import input_array_manual
+from random_array import generate_array
 
 def main():
-    print("-- Тест ручного ввода массива --")
-    arr = input_array_manual()
-    print("Вы ввели массив:", arr)
+    print("-- Тест генерации массива --")
+    result = generate_array(5, 1, 100)
+    print("Сгенерированный массив:", result)
 
 if __name__ == "__main__":
     main()
+
 

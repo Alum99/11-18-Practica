@@ -1,0 +1,5 @@
+import random
+# Генерирует массив случайных чисел
+def generate_array(size: int, min_v: int, max_v: int) -> list[int]:
+    return [random.randint(min_v, max_v) for _ in range(size)]
+
